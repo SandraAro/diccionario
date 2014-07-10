@@ -1,0 +1,134 @@
+html, body{
+    min-height: 100%;
+}
+body{
+    background: #f3f3f3;
+}
+.img-categoria, .img-gesto{
+    max-height: 150px;
+}
+.panel{
+    background: #fff;
+    box-shadow: 0px 3px 0px rgba(100,100,100,0.6);
+    border-radius: 2px;
+    border: none;	
+}
+.category-panel, .gesture-panel{
+	height: 220px;
+	border-top: 5px solid;
+}
+	.category-panel h3, .gesture-panel h3{
+		font-size: 1.2em;
+	}
+	.category-panel .img-categoria, .gesture-panel .img-gesto{
+		height: 150px;
+		width: auto;
+	}
+.gesture-panel{
+	color: #333;
+}	
+.rammetto-font{
+    font-family: 'Rammetto One', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.slide-content{
+    padding: 1.5em;
+}
+.hands-background{
+    padding-bottom: 160px;
+    background: url("../img/hands.jpg") bottom repeat-x;
+    background-size: 400px;
+}
+.wood-background{
+    background: url("../img/wood_pattern.png");
+}
+.pattern-background{
+	background: url("../img/gplaypattern.png");
+}
+.four-hands-background{
+    background: url("../img/four-hands-gray.png");
+    background-size: 150px;
+}
+#lista-gestos, #lista-categorias{
+    margin-top: 20px;
+}
+video{
+    width: 100%;
+}
+#directional-btns{
+    margin-top: 20px;
+}
+.bold{
+    font-weight: bold;
+}
+.img-preview{
+    height: 150px;
+}
+.breadcrumbs{
+    background-color: #fff;
+}
+header{
+    padding: 10px 0;
+    background: url(../img/colors-border.png) center bottom no-repeat #333;
+    background-size: 100% 5px;
+    /*box-shadow: 0px 3px 5px rgba(100,100,100,0.6);*/
+    margin-bottom: 20px;
+}
+    header #foundation-name{
+        margin-bottom: -12px;
+    }
+    header .logo{
+        max-width: 80px;
+        max-height: 60px;
+        float: left;
+        margin-right: 10px;
+    }
+	header h1{
+		font-size: 1.75em;
+	}
+#subheader{
+
+}
+#btn-administrar{
+    font-size: 14px;
+}
+#container{
+    min-height: 450px;
+}
+#footer{
+    padding-bottom: 20px;
+}
+.bowlby-font{
+    font-family: 'Bowlby One SC', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.gray{
+    color: #888;
+}
+.category-title{
+    color: #333;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+#search-form{
+    margin: 10px 0;
+}
+	#search-input, #search-submit{
+		margin: 0;
+	}
+.white{
+	color: #fff;
+}
+p.result{
+    text-align: right;
+    margin-bottom: 0;
+    font-size: 0.9em;
+    color: #999;
+	margin-top: -10px;
+}
+p.result-category{
+    color: #999;
+}
+p.result-gesture{
+    color: #999;
+}
+div.result{
+    height: 230px;
+}
